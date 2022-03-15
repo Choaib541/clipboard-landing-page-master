@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn1 {
+  width: 300px;
+  height: 55px;
+  border-radius: 50px;
+  font-size: 20px;
+  color: white;
+  background-color: #26baa4;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.3);
+}
+
+.btn2 {
+  margin: 20px 0px;
+  background-color: #6173ff;
+}
+
+.header {
+  position: relative;
+  height: 800px;
+}
+
+.header .desktop-header {
+  display: none;
+}
+
+.header * {
+  z-index: 1;
+}
+
+.header > img {
+  width: 100%;
+  z-index: 0;
+}
+
+.header .header_innercontent {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header_innercontent > img {
+  width: 140px;
+  height: 140px;
+}
+
+.header .header_innercontent > div:nth-child(2) {
+  margin: 70px 0px;
+  width: 90%;
+  text-align: center;
+}
+
+.header .header_innercontent > div:nth-child(2) h1 {
+  width: 85%;
+  margin: 0px auto 20px auto;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.header .header_innercontent > div:nth-child(2) h4 {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.header .header_innercontent > div:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.track h2 {
+  color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  margin: 50px 0px 20px 0px;
+}
+
+.track > h4:nth-child(2) {
+  margin: 0px 0px 50px 0px;
+}
+
+.track h4 {
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.track img {
+  width: 100%;
+}
+
+.Clipboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.Clipboard img {
+  width: 100%;
+}
+
+.Clipboard h2 {
+  color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  margin: 50px 0px 20px 0px;
+}
+
+.Clipboard h4 {
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.3);
+  margin-bottom: 50px;
+}
+
+.Supercharge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.Supercharge img {
+  width: 20%;
+}
+
+.Supercharge h2 {
+  color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  margin: 50px 0px 20px 0px;
+}
+
+.Supercharge h4 {
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.3);
+  margin-bottom: 50px;
+}
+
+.brands {
+  width: 80%;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.brands img {
+  margin: 35px 0px;
+}
+
+.ioscliptboard {
+  width: 80%;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.ioscliptboard h2 {
+  color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  margin: 50px 0px 20px 0px;
+}
+
+.ioscliptboard h4 {
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.3);
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 50px 0px;
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  margin: 25px 0px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 18px;
+}
+
+footer > ul:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer > ul:last-child li {
+  margin: 20px 15px;
+}
+
+footer > ul:last-child li a img {
+  width: 25px;
+  height: 25px;
+}
+/*# sourceMappingURL=index.css.map */
